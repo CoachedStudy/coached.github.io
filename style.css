@@ -16,7 +16,7 @@ form {
 form input,
 form button{
     padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border: none;
     background: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,7 +30,7 @@ form button{
 }
 form textarea {
     padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border: none;
     background: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,7 +38,7 @@ form textarea {
 
 h1{
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.103);
 }
 
@@ -53,10 +53,41 @@ h3{
 }
 p{
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 p.questions{
     color:black;
     font-size: 1rem;
+}
+
+#inputArea {
+	display: table;
+	padding: 10px;
+	border:1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad9d);
+		
+}
+#inputArea input,
+#inputArea button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#inputArea button{
+    color: #faaa81;
+    background: white;
+    cursor: pointer;
+    transition: all 1s ease-out;
+
+}
+#inputArea textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
