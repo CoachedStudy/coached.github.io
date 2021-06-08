@@ -8,8 +8,6 @@ body {
 	/*background: #ffffff url(images/background.png) top right no-repeat;*/
     background-image: linear-gradient(to right, white,white);
     margin: auto;
-    padding-top: 240px;
-    padding-bottom: 110px;
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -19,7 +17,7 @@ form {
 	padding: 10px;
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);	
+	background-image: linear-gradient(to right,#0065BD,  #0083F5);	
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form input,
@@ -31,13 +29,30 @@ form button{
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
 }
+
+#timerdiv {
+	
+    margin: auto;
+    position: fixed;
+    font-size: 1rem;
+    top:0;
+    right:0;
+    width: 170px;
+    height: 20px;
+    padding: 2px;
+    border:1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+	background-image: linear-gradient(to right,#0065BD,  #0083F5);
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 form button{
     color: #faaa81;
     background: white;
     cursor: pointer;
     transition: all 1s ease-out;
-    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 form textarea {
@@ -46,7 +61,7 @@ form textarea {
     margin: auto;
     border: none;
     background: rgb(255, 255, 255);
-    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1{
@@ -60,16 +75,13 @@ h1{
 h2{
         color: black;
         margin: auto;
-        font-size: 1rem;
         font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        /*border-bottom: 2px solid rgba(0, 0, 0, 0.103);*/
 }
 
 h3{
     color: black;
     margin: auto;
-    font-size: 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.103);
+    /*border-bottom: 2px solid rgba(0, 0, 0, 0.103);*/
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
@@ -96,7 +108,7 @@ p.questions{
     transform: translate(-50%,0%);
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+	background-image: linear-gradient(to right,#0065BD,  #0083F5);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -139,7 +151,7 @@ p.questions{
     transform: translate(-50%,0%);
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+	background-image: linear-gradient(to right,#0065BD,  #0083F5);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -157,7 +169,7 @@ p.questions{
 	padding: 10px;
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+	background-image: linear-gradient(to right,#0065BD,  #0083F5);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -176,7 +188,6 @@ p.questions{
     background: white;
     cursor: pointer;
     transition: all 1s ease-out;
-    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .inputAreaClass textarea {
@@ -187,3 +198,19 @@ p.questions{
     background: rgb(255, 255, 255);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd3a;
+  }

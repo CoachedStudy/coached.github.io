@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" 
+	rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"> </script>
+	
+	<title>Benvenuti!</title>
+	
+  </head>
+  <body>
+	
+<center>
+
+   <form action = "../sectionpass/" onsubmit="nextPage()">
+
+		<center>
+		<p> <img src="../images/pmi_logo.png"></p>	
+		<br>
+		<h1>Chi Sei? Raccontaci di te!</h1>
+		<br>
+		<p> Nickname </p>
+		<input type="text" id = "name" name="Name" value="" placeholder="Nickname" size="30">
+		<br><br>
+		<p> Tipo di ruolo professionale </p>
+		<input type="text" id = "profession" name="Profession" value="" placeholder="Professione" required size="30">
+		<br><br>
+		<p> In quale città vivi o lavori? </p>
+		<input type="text" id = "city" name="city" value="" placeholder="Città" required size="30">
+		<br><br>
+		<p> Sesso </p>
+		<input type="text" id = "gender" name="gender" value="" placeholder="Sesso" required size="30">
+		<br><br>
+
+
+		<p> Età </p>
+		<button type = "button" onclick="ageWelcomeDown()">▼</button>
+		<label id= "agewelcomelabel"></label>
+		<button type= "button"  onclick = "ageWelcomeUp()">▲</button>
+		<br><br>
+
+		<h2><br> 
+			Avanti!
+			<button class= "submit-button" type="submit"> 
+			<i class="fas fa-angle-double-right"></i>
+			</button>
+		</h2>
+	
+
+			</center>
+	</form>
+</center>
+
+<div id=timerdiv>
+	<center>
+			Tempo: <span id="timer"> </span>sec
+	</center>
+</div>
+
+<script src="./app.js"></script>  
+<script src="../timer.js"></script>  
+  </body>
+</html>
+

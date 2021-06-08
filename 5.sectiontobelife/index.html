@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" 
+	rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"> </script>
+	
+	<title>Future Key Highlights</title>
+	
+  </head>
+  <body>
+	
+	<center>
+
+	<div id = "inputArea">
+		<p> <img src="../images/pmi_logo.png"></p>
+		<br>
+		<h2>MYSELF FUTURE KEY HIGHLIGHTS</h2>
+	</div>
+
+   	<!--<form action = "../sectionpass/" onsubmit="nextPage()">-->
+		<form action = "../sectionpass/" onsubmit="return nextPage()">
+	<center>
+		
+		<h3> MY FUTURE LIFE PHILOSOPHY </h3><br>
+		<p class="questions"> Descrivi in una frase <br> la tua filosofia di vita ad oggi </p><br>
+		<textarea name="lifePhilosophy" id = "lifephilosophy" cols="30" rows="10"value="" placeholder="My Life Philosophy" required style="resize:none"></textarea ><br><br>
+		<!--<input type="text" name="lifePhilosophy" value="" placeholder="My Life Philosophy" size="30">-->
+		<h3> MY ACHIEVEMENTS </h3><br>
+		<p class="questions"> Tre aspetti <br> di cui vado fiera/o di aver realizzato, <br> di avere come punto di forza. <br> Qualcosa che mi riconosco fortemente... </p><br>
+		<input type="text" name="myAchievements" id= "myachievements1" value="" placeholder="My Top Achievement"  size="30" maxlength="30" required><br><br>
+		<input type="text" name="myAchievements" id= "myachievements2" value="" placeholder="My Second Top Achievement"  size="30" maxlength="30" required><br><br>
+		<input type="text" name="myAchievements" id= "myachievements3" value="" placeholder="My Third Top Achievement" size="30" maxlength="30"><br><br>
+		
+		<h3> MY FUTURE FOCUS </h3><br>
+		<p class="questions"> Le 5 principali aree cui dedico il mio tempo. <br> In che % tra di loro spartisco il mio impegno/tempo? <br> (Tot=100%) </p><br>
+
+		<div class="section1Text" id="section1Text">
+		
+
+		<input type="text" id="area1Desc" name="area1" value="" placeholder="Area 1"  size="20" maxlength="20" oninput="updatePieChart()">
+		<button type = "button" onclick="area1down()">▼</button>
+		<label id= "area1label">  0</label><label>% </label>
+		<button type= "button"  onclick = "area1up()">▲</button>	
+		<br><br>
+
+		<input type="text" id="area2Desc" name="area2" value="" placeholder="Area 2"  size="20" maxlength="20" oninput="updatePieChart()">
+		<button type = "button" onclick="area2down()">▼</button>
+		<label id= "area2label"> 0</label><label>% </label>
+		<button type= "button"  onclick = "area2up()">▲</button>	
+		<br><br>
+
+		<input type="text" id="area3Desc" name="area3" value="" placeholder="Area 3"  size="20" maxlength="20" oninput="updatePieChart()">
+		<button type = "button" onclick="area3down()">▼</button>
+		<label id= "area3label"> 0</label><label>% </label>
+		<button type= "button"  onclick = "area3up()">▲</button>	
+		<br><br>
+
+		<input type="text" id="area4Desc" name="area4" value="" placeholder="Area 4"  size="20" maxlength="20" oninput="updatePieChart()">
+		<button type = "button" onclick="area4down()">▼</button>
+		<label id= "area4label"> 0</label><label>% </label>
+		<button type= "button"  onclick = "area4up()">▲</button>	
+		<br><br>
+
+		<input type="text" id="area5Desc" name="area5" value="" placeholder="Area 5"  size="20" maxlength="20" oninput="updatePieChart()">
+		<button type = "button" onclick="area5down()">▼</button>
+		<label id= "area5label"> 0</label><label>% </label>
+		<button type= "button"  onclick = "area5up()">▲</button>	
+		<br><br>
+
+
+	</div>
+	
+<h2> 
+	Avanti!
+	<button class= "submit-button" type="submit"> 
+	<i class="fas fa-angle-double-right"></i>
+	</button>
+</h2>
+
+</center>
+</form>
+</center>
+
+<div id="pietimegraph">
+	<center>
+		<h3>My Future Focus</h3>
+		<canvas id="pie-chart1" width="50" height="50"></canvas>
+	</center>
+	   </div>
+
+
+<div id=timerdiv>
+	<center>
+			Tempo: <span id="timer"> </span>sec
+	</center>
+		</div>
+
+<script src="./app.js"></script>  
+<script src="../timer.js"></script>  
+  </body>
+</html>
+

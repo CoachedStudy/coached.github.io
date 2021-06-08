@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" 
+	rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"> </script>
+	
+	<title>Do It Better! Knowledge</title>
+	
+  </head>
+  <body>
+	
+<center>
+
+   <form action = "../sectionpass/" onsubmit="nextPage()">
+
+		<center>
+		<p> <img src="../images/pmi_logo.png"></p>	
+		<br>
+		<h1>Do It Better, Decide and Act! <br> Knowledge</h1>
+		<br>
+		<br>
+		<h3 style="color: #FF9A5C; font-weight: bold">1° Prioritià</h3>
+		<br>		
+		<table>
+			<tr>
+				<th>Stato</th>
+				<th>Priorità</th>
+				<th>Area</th>
+			  	<th>Padronanza</th>
+			</tr>
+			<tr>
+				<td><label>To Be</label></td>
+				<td><label id = area0prioritytodo></label></td>
+				<td><label  id = area0desctodo></label></td>
+				<td><label id = area0leveltodo></label></td>
+			  </tr>
+			  <tr>
+				<td><label>As Is</label></td>
+				<td><label id = area0priorityasis></label></td>
+				<td><label id = area0descasis></label></td>
+				<td><label id = area0levelasis></label></td>
+			  </tr>
+		</table>
+
+		<br>
+		<table>
+			<tr>
+		<th><p> Se fossi nei panni del mio<br>mentore/ispiratore cosa farebbe?<br>(Almeno 5 passi) </p>
+		<textarea name="Area0" id = "mentorarea0" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;4.&#10;5.&#10;...' required style="resize:none"></textarea ><br><br>
+		</th>
+
+		<th><p>Da adesso mi prendo <br> l'impegno di fare…<br>(Almeno 3 passi) </p>
+		<textarea name="Area0" id = "mearea0" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;...' required style="resize:none"></textarea ><br><br>
+		</th>
+		</tr>
+	</table>	
+			<br>
+
+<!---------->
+		<br>
+		<h3 style="color: #FF9A5C; font-weight: bold">2° Prioritià</h3>
+		<br>
+			<table>
+				<tr>
+					<th>Stato</th>
+					<th>Priorità</th>
+					<th>Area</th>
+					<th>Padronanza</th>
+				</tr> 
+				<tr>
+					<td><label>To Be</label></td>
+					<td><label id = area1prioritytodo></label></td>
+					<td><label id = area1desctodo></label></td>
+					<td><label id = area1leveltodo></label></td>
+				</tr>
+				<tr>
+					<td><label>As Is</label></td>
+					<td><label id = area1priorityasis></label></td>
+					<td><label id = area1descasis></label></td>
+					<td><label id = area1levelasis></label></td>
+				</tr>
+		</table>
+<br>
+					<table>
+						<tr>
+					<th><p> Se fossi nei panni del mio<br>mentore/ispiratore cosa farebbe?<br>(Almeno 5 passi) </p>
+					<textarea name="Area1" id = "mentorarea1" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;4.&#10;5.&#10;...' required style="resize:none"></textarea ><br><br>
+					</th>
+			
+					<th><p>Da adesso mi prendo <br> l'impegno di fare…<br>(Almeno 3 passi) </p>
+					<textarea name="Area1" id = "mearea1" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;...' required style="resize:none"></textarea ><br><br>
+					</th>
+					</tr>
+				</table>	
+<!---------->
+		<br>
+		<h3 style="color: #FF9A5C; font-weight: bold">3° Prioritià</h3>
+		<br>
+<table>
+	<tr>
+		<th>Stato</th>
+		<th>Priorità</th>
+		<th>Area</th>
+		<th>Padronanza</th>
+	</tr> 
+	<tr>
+		<td><label>To Be</label></td>
+		<td><label id = area2prioritytodo></label></td>
+		<td><label id = area2desctodo></label></td>
+		<td><label id = area2leveltodo></label></td>
+	</tr>
+	<tr>
+		<td><label>As Is</label></td>
+		<td><label id = area2priorityasis></label></td>
+		<td><label id = area2descasis></label></td>
+		<td><label id = area2levelasis></label></td>
+	</tr>
+</table>
+<br>
+		<table>
+			<tr>
+		<th><p> Se fossi nei panni del mio<br>mentore/ispiratore cosa farebbe?<br>(Almeno 5 passi) </p>
+		<textarea name="Area2" id = "mentorarea2" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;4.&#10;5.&#10;...' required style="resize:none"></textarea ><br><br>
+		</th>
+
+		<th><p>Da adesso mi prendo <br> l'impegno di fare…<br>(Almeno 3 passi) </p>
+		<textarea name="Area2" id = "mearea2" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;...' required style="resize:none"></textarea ><br><br>
+		</th>
+		</tr>
+	</table>	
+
+<!---------->
+		<br>
+		<h3 style="color: #FF9A5C; font-weight: bold">4° Prioritià</h3>
+		<br>
+			<table>
+				<tr>
+					<th>Stato</th>
+					<th>Priorità</th>
+					<th>Area</th>
+					<th>Padronanza</th>
+				</tr> 
+				<tr>
+					<td><label>To Be</label></td>
+					<td><label id = area3prioritytodo></label></td>
+					<td><label id = area3desctodo></label></td>
+					<td><label id = area3leveltodo></label></td>
+				</tr>
+				<tr>
+					<td><label>As Is</label></td>
+					<td><label id = area3priorityasis></label></td>
+					<td><label id = area3descasis></label></td>
+					<td><label id = area3levelasis></label></td>
+				</tr>
+		</table>
+<br>
+					<table>
+						<tr>
+					<th><p> Se fossi nei panni del mio<br>mentore/ispiratore cosa farebbe?<br>(Almeno 5 passi) </p>
+					<textarea name="Area3" id = "mentorarea3" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;4.&#10;5.&#10;...' required style="resize:none"></textarea ><br><br>
+					</th>
+			
+					<th><p>Da adesso mi prendo <br> l'impegno di fare…<br>(Almeno 3 passi) </p>
+					<textarea name="Area3" id = "mearea3" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;...' required style="resize:none"></textarea ><br><br>
+					</th>
+					</tr>
+				</table>	
+<!---------->
+		<br>
+		<h3 style="color: #FF9A5C; font-weight: bold">5° Prioritià</h3>
+		<br>
+<table>
+	<tr>
+		<th>Stato</th>
+		<th>Priorità</th>
+		<th>Area</th>
+		<th>Padronanza</th>
+	</tr> 
+	<tr>
+		<td><label>To Be</label></td>
+		<td><label id = area4prioritytodo></label></td>
+		<td><label id = area4desctodo></label></td>
+		<td><label id = area4leveltodo></label></td>
+	</tr>
+	<tr>
+		<td><label>As Is</label></td>
+		<td><label id = area4priorityasis></label></td>
+		<td><label id = area4descasis></label></td>
+		<td><label id = area4levelasis></label></td>
+	</tr>
+</table>
+<br>
+		<table>
+			<tr>
+		<th><p> Se fossi nei panni del mio<br>mentore/ispiratore cosa farebbe?<br>(Almeno 5 passi) </p>
+		<textarea name="Area4" id = "mentorarea4" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;4.&#10;5.&#10;...' required style="resize:none"></textarea ><br><br>
+		</th>
+
+		<th><p>Da adesso mi prendo <br> l'impegno di fare…<br>(Almeno 3 passi) </p>
+		<textarea name="Area4" id = "mearea4" cols="30" rows="10"value="" placeholder= '1.&#10;2.&#10;3.&#10;...' required style="resize:none"></textarea ><br><br>
+		</th>
+		</tr>
+	</table>	
+
+			
+		<h2><br> 
+			Avanti!
+			<button class= "submit-button" type="submit"> 
+			<i class="fas fa-angle-double-right"></i>
+			</button>
+		</h2>	
+
+			</center>
+	</form>
+</center>
+
+<div id=timerdiv>
+	<center>
+			Tempo: <span id="timer"> </span>sec
+	</center>
+</div>
+
+<script src="./app.js"></script>  
+<script src="../timer.js"></script>  
+  </body>
+</html>
+

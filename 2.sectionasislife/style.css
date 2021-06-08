@@ -8,7 +8,7 @@ body {
 	/*background: #ffffff url(images/background.png) top right no-repeat;*/
     background-image: linear-gradient(to right, white,white);
     margin: auto;
-    padding-top: 240px;
+    padding-top: 220px;
     padding-bottom: 110px;
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -36,8 +36,8 @@ form button{
     background: white;
     cursor: pointer;
     transition: all 1s ease-out;
-    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 form textarea {
@@ -52,7 +52,7 @@ form textarea {
 h1{
     color: black;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.103);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -60,17 +60,18 @@ h1{
 h2{
         color: black;
         margin: auto;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         /*border-bottom: 2px solid rgba(0, 0, 0, 0.103);*/
+        /*border-top: 2px solid rgba(0, 0, 0, 0.103);*/
 }
 
 h3{
     color: black;
     margin: auto;
     font-size: 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.103);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.103);
 }
 p{
     color: black;
@@ -91,13 +92,13 @@ p.questions{
     position: fixed;
     top:0;
     left:50%;
-    width: 350px;
+    width: 400px;
     padding: 10px;
     transform: translate(-50%,0%);
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
 }
 
 
@@ -117,7 +118,6 @@ p.questions{
     cursor: pointer;
     transition: all 1s ease-out;
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 #inputArea textarea {
     padding: 0.5rem;
@@ -139,18 +139,32 @@ p.questions{
     transform: translate(-50%,0%);
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
 }
 
 #skilllevel label {
-    font-size: 1rem;
+    font-size: 0.5 rem;
     display: inline-block;
     width: 400px;
     text-align: center;
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#timerdiv {
+	
+    margin: auto;
+    position: fixed;
+    top:0;
+    right:0;
+    width: 150px;
+    height: 20px;
+    padding: 2px;
+    border:1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .inputAreaClass {
 	display: table;
     margin: auto;
@@ -185,5 +199,19 @@ p.questions{
     margin: auto;
     border: none;
     background: rgb(255, 255, 255);
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pietimegraph {
+	
+    margin: auto;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 400px;
+    height: 430px;
+    padding: 2px;
+    border:1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="preconnect" href="https://fonts.gstatic.com"-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" 
+        rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./style.css">
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"> </script>
+        
+        <title>To Be Skills - Knowledge</title>
+        
+      </head>
+</head>
+<body>
+    <div id="inputArea" class="header">
+        <center>
+        <p> <img src="../images/pmi_logo.png"></p>	
+        <h2 style="margin:5px">To Be Skills - Knowledge</h2>
+        <input type="text" id="myInput" placeholder="Nuovo..." size="30" maxlength="30">
+        <span id="myButton" onclick="newElement()" class="addBtn">Aggiungi!
+		    <i class="fas fa-angle-double-right"></i></span>
+		</h2>
+    </div>
+
+    <div id="skilllevel" class="Footer">
+        <center><h3>Livelli </h3></center>
+        <center><p> <label">1. Beginner <b>|</b> 2. Average <b>|</b> 3. Skilled <b>|</b> 4. Specialist <b>|</b> 5. Expert</label></p></center>
+    </center>
+    <center>
+        <h2 id=avanti>            
+            <span id="myButton" onclick="nextPage()" class="addBtn">
+            Avanti! <i class="fas fa-angle-double-right"></i></span>     
+        </h2>
+    </center>
+    </div>
+
+    <div id="skillgraph">
+ <center>
+
+    <canvas id="skillchart" width="50" height="50"></canvas>
+
+ </center>
+    </div>
+
+    <div id=timerdiv>
+<center>
+        Tempo: <span id="timer"> </span>sec
+</center>
+    </div>
+
+<script src="./app.js"></script>  
+<script src="../timer.js"></script>  
+</body>
+</html>

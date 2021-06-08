@@ -7,6 +7,7 @@
 body {
 	/*background: #ffffff url(images/background.png) top right no-repeat;*/
     background-image: linear-gradient(to right, white,white);
+    font-size: 1rem;
     margin: auto;
     padding-top: 240px;
     padding-bottom: 110px;
@@ -16,10 +17,11 @@ body {
 form {
 	display: table;
     margin: auto;
+    font-size: 1rem;
 	padding: 10px;
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);	
+	background-image: linear-gradient(to right,#05BFE0,  #a0e5f1);	
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form input,
@@ -34,11 +36,11 @@ form button{
 form button{
     color: #faaa81;
     background: white;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 1s ease-out;
-    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
-
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form textarea {
     padding: 0.5rem;
@@ -52,7 +54,7 @@ form textarea {
 h1{
     color: black;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.103);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -60,9 +62,19 @@ h1{
 h2{
         color: black;
         margin: auto;
-        font-size: 1rem;
         font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.2rem;
+        /*border-top: 2px solid rgba(0, 0, 0, 0.103);*/
         /*border-bottom: 2px solid rgba(0, 0, 0, 0.103);*/
+}
+
+#avanti {
+    color: black;
+    margin: auto;
+    font-size: 1.2rem;
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*border-bottom: 2px solid rgba(0, 0, 0, 0.103);*/
+    border-top: 2px solid rgba(0, 0, 0, 0.103);
 }
 
 h3{
@@ -89,14 +101,15 @@ p.questions{
 	
     margin: auto;
     position: fixed;
+    font-size: 1rem;
     top:0;
     left:50%;
-    width: 350px;
+    width: 400px;
     padding: 10px;
     transform: translate(-50%,0%);
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+	background-image: linear-gradient(to right,#05BFE0,  #a0e5f1);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -114,11 +127,12 @@ p.questions{
 #inputArea button{
     color: #faaa81;
     background: white;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 1s ease-out;
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
+
 #inputArea textarea {
     padding: 0.5rem;
     font-size: 1rem;
@@ -134,20 +148,55 @@ p.questions{
     position: fixed;
     bottom:0;
     left:50%;
-    width: 400px;
+    width: 450px;
     padding: 5px;
+    font-size: 1rem;
     transform: translate(-50%,0%);
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+	background-image: linear-gradient(to right,#05BFE0,  #a0e5f1);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 #skilllevel label {
-    font-size: 1rem;
     display: inline-block;
-    width: 400px;
+    width: 450px;
+    padding: 5px;
+    font-size: 1rem;
     text-align: center;
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skillgraph {
+	
+    margin: auto;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 400px;
+    height: 400px;
+    padding: 2px;
+    font-size: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+	background-image: linear-gradient(to right,#05BFE0,  #a0e5f1);
+    font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#timerdiv {
+	
+    margin: auto;
+    position: fixed;
+    top:0;
+    right:0;
+    width: 150px;
+    height: 20px;
+    padding: 2px;
+    font-size: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 15px;
+	background-image: linear-gradient(to right,rgb(5, 191, 224),  #a0e5f1);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -155,9 +204,10 @@ p.questions{
 	display: table;
     margin: auto;
 	padding: 10px;
+    font-size: 1rem;
 	border:1px solid rgba(0, 0, 0, 0.103);
     border-radius: 15px;
-	background-image: linear-gradient(to right,#FFC9AD,  #ffc8ad);
+	background-image: linear-gradient(to right,#05BFE0,  #a0e5f1);
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -174,6 +224,7 @@ p.questions{
 .inputAreaClass button{
     color: #faaa81;
     background: white;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 1s ease-out;
     font-family: "Agrandir",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

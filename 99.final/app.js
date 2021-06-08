@@ -1,4 +1,4 @@
-var advancement ="";
+/*var advancement ="";
 var windowPass = "";
 var whereWeAre = "";
 
@@ -22,4 +22,4 @@ if (welcomeKeyword == "benvenuti"){
     localStorage.setItem("whereWeAre", "passWelcome")
     nextPageLink = "./sectionpass/";
     window.open(nextPageLink, "_self");
-}}
+}}*/
