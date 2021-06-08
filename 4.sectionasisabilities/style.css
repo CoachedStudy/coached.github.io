@@ -1,7 +1,7 @@
 @font-face{
     font-family: "Agrandir";
-    src: url("../Fonts/agrandir-regular.woff"),
-        url("../Fonts/agrandir-regular.ttf");
+    src: local("../Fonts/agrandir-regular.woff"),
+        local("../Fonts/agrandir-regular.ttf");
 }
 
 body {
